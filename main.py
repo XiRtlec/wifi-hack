@@ -17,7 +17,3 @@ def main():
             print("{:<30}|  {:<}".format(i, ""))
 
     time.sleep(5)
-
-
-
-main()
