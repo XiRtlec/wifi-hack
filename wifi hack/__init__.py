@@ -1,1 +1,1 @@
-from main import hacknow
+from main import main_hack

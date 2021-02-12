@@ -13,7 +13,7 @@ LONG_DESCRIPTION = 'A package that allows to hack wifi passwords'
 
 # Setting up
 setup(
-    name="wifi-hack",
+    name="wifihack",
     version=VERSION,
     author="",
     author_email="",
@@ -22,7 +22,7 @@ setup(
     long_description=long_description,
     packages=find_packages(),
     install_requires=[],
-    keywords=['python', 'video', 'stream', 'video stream', 'camera stream', 'sockets','hack','wifi'],
+    keywords=['python','hack','wifi'],
     classifiers=[
         "Development Status :: 1 - Planning",
         "Intended Audience :: Developers",

